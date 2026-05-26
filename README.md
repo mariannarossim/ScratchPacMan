@@ -1,93 +1,162 @@
-# 🎮 Jogo Pac-Man no Scratch  
+# Jogo Pac-Man — Scratch
 
-## 📖 Descrição  
-Este projeto implementa o clássico jogo **Pac-Man** usando o ambiente de programação visual **Scratch** (desenvolvido pelo MIT).  
-O jogo permite controlar o Pac-Man para comer pontos (bolinhas) enquanto evita os fantasmas.  
-Inclui mecânicas como movimento, colisões, pontuação e níveis.  
+![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-green)
+![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-green)
+![Scratch](https://img.shields.io/badge/Scratch-4D97FF?logo=scratch&logoColor=white)
 
----
-
-## 🕹️ Usabilidade – Controles  
-- Use as **setas do teclado** (↑ ↓ ← →) para mover o Pac-Man pelo labirinto.  
-- Evite os **fantasmas coloridos** (vermelho, rosa, ciano e laranja).  
-- Coma todas as **bolinhas** para avançar de nível e ganhar pontos!  
-- **Power Pellets (bolinhas grandes):** tornam os fantasmas vulneráveis temporariamente, permitindo capturá-los e ganhar pontos extras.  
+Material didático para o desenvolvimento do clássico jogo **Pac-Man** utilizando o ambiente de programação visual **Scratch**, mantido pelo MIT. O projeto foi elaborado para o ensino de **lógica de programação para crianças**, propondo a construção do jogo de forma incremental ao longo de cinco encontros.
 
 ---
 
-## 📚 Plano de Aula – Desenvolvimento do Jogo  
+## Sobre o projeto
 
-### Aula 1 – Introdução e configuração do projeto  
-**Objetivos:**  
-- Apresentar o projeto e seus objetivos.  
-- Conhecer a interface do Scratch.  
-- Criar o cenário (labirinto) e os personagens (Pac-Man e fantasmas).  
-- Configurar os sprites e preparar para animação.  
+A implementação do jogo permite que as crianças exercitem, de forma lúdica, os principais fundamentos da lógica de programação e do pensamento computacional. O Pac-Man deve percorrer o labirinto, coletar todas as bolinhas e desviar dos fantasmas, contemplando mecânicas de movimento, detecção de colisões, sistema de pontuação e progressão por níveis.
 
-**Conteúdo:**  
-- Desenho ou importação do labirinto como plano de fundo.  
-- Criação/importação dos sprites: Pac-Man e fantasmas.  
-- Navegação básica na interface do Scratch (palco, sprites, blocos).  
-- Uso do editor de fantasias para animar o Pac-Man (boca aberta e fechada).  
-- Importância de nomear os sprites para facilitar a organização.  
+O Scratch foi escolhido por permitir a introdução desses conceitos sem que a sintaxe de uma linguagem tradicional se torne uma barreira inicial. A linguagem por blocos é especialmente adequada ao público infantil, mantendo o foco no raciocínio lógico, na criatividade e na resolução de problemas.
 
 ---
 
-### Aula 2 – Movimentação do Pac-Man  
-**Objetivos:**  
-- Programar o controle do Pac-Man com as setas do teclado.  
-- Garantir movimentação suave.  
-- Impedir que o Pac-Man atravesse paredes.  
+## Controles e jogabilidade
 
-**Conteúdo:**  
-- Blocos de movimento (apontar direção, mover passos).  
-- Detecção de cor para colisão com paredes.  
-- Ajustes de velocidade e fluidez na movimentação.  
+- Movimentação do Pac-Man pelo labirinto utilizando as **setas do teclado** (↑ ↓ ← →)
+- Coleta de **bolinhas** para acúmulo de pontos e progressão de nível
+- Desvio dos **fantasmas** (vermelho, rosa, ciano e laranja), que provocam o fim do jogo em caso de contato
+- Coleta de **Power Pellets** (bolinhas grandes), que tornam os fantasmas temporariamente vulneráveis e permitem capturá-los para obtenção de pontos adicionais
 
 ---
 
-### Aula 3 – Fantasmas e colisão  
-**Objetivos:**  
-- Criar movimentação automática dos fantasmas.  
-- Programar comportamento de perseguição ou movimentação aleatória.  
-- Definir colisão entre fantasmas e Pac-Man (fim de jogo).  
+## Plano de aula
 
-**Conteúdo:**  
-- Uso de direção aleatória ou lógica de perseguição.  
-- Condição de “tocar em Pac-Man” para encerrar o jogo.  
-- Exibição de mensagem de “Game Over” e reinício.  
+O desenvolvimento do jogo é distribuído em cinco aulas, organizadas de forma a apresentar gradualmente novos conceitos e mecânicas, respeitando o ritmo de aprendizado das crianças.
 
----
+### Aula 1 — Introdução e configuração do projeto
 
-### Aula 4 – Bolinhas e pontuação  
-**Objetivos:**  
-- Criar bolinhas espalhadas pelo labirinto.  
-- Programar o Pac-Man para “comer” as bolinhas ao tocá-las.  
-- Atualizar a pontuação na tela.  
-- Definir condição de vitória.  
+**Objetivos**
 
-**Conteúdo:**  
-- Uso de clones para múltiplas bolinhas.  
-- Variável “pontuação” para contar pontos.  
-- Condição de vitória ao comer todas as bolinhas.  
+- Apresentar o projeto e seus objetivos
+- Conhecer a interface do Scratch
+- Criar o cenário (labirinto) e os personagens (Pac-Man e fantasmas)
+- Configurar os sprites e prepará-los para animação
+
+**Conteúdo**
+
+- Desenho ou importação do labirinto como plano de fundo
+- Criação e importação dos sprites do Pac-Man e dos fantasmas
+- Navegação básica na interface do Scratch (palco, sprites, blocos)
+- Uso do editor de fantasias para animar o Pac-Man (boca aberta e fechada)
+- Boas práticas de nomenclatura de sprites para organização do projeto
 
 ---
 
-### Aula 5 – Power Pellets e melhorias  
-**Objetivos:**  
-- Criar Power Pellets que dão vantagem temporária.  
-- Alterar comportamento dos fantasmas quando o poder está ativo.  
-- Adicionar sons e efeitos visuais.  
-- Realizar testes e ajustes finais no jogo.  
+### Aula 2 — Movimentação do Pac-Man
 
-**Conteúdo:**  
-- Uso de variáveis para estados temporários (ex.: “poder = 1”).  
-- Fantasmas vulneráveis durante o efeito.  
-- Sons e animações para feedback sonoro e visual.  
-- Revisão geral do jogo e possíveis expansões (níveis, velocidade, skins).  
+**Objetivos**
+
+- Programar o controle do Pac-Man com as setas do teclado
+- Garantir movimentação suave e contínua
+- Impedir que o Pac-Man atravesse as paredes do labirinto
+
+**Conteúdo**
+
+- Blocos de movimento: apontar direção e mover passos
+- Detecção de cor para identificação de colisão com paredes
+- Ajustes de velocidade e fluidez na movimentação
 
 ---
 
-## 👩‍🏫 Observação para Professores  
-Este plano de aula foi desenvolvido para **ensinar lógica de programação, pensamento computacional e criatividade** usando o Scratch.  
-Pode ser adaptado conforme o nível dos alunos, incluindo mais ou menos recursos no jogo.  
+### Aula 3 — Fantasmas e colisão
+
+**Objetivos**
+
+- Criar a movimentação automática dos fantasmas
+- Programar o comportamento de perseguição ou movimentação aleatória
+- Definir a colisão entre os fantasmas e o Pac-Man como condição de fim de jogo
+
+**Conteúdo**
+
+- Uso de direção aleatória ou lógica de perseguição
+- Condição de contato com o Pac-Man para encerramento da partida
+- Exibição de mensagem de fim de jogo e mecânica de reinício
+
+---
+
+### Aula 4 — Bolinhas e sistema de pontuação
+
+**Objetivos**
+
+- Posicionar bolinhas pelo labirinto
+- Programar o Pac-Man para coletar as bolinhas ao tocá-las
+- Atualizar a pontuação exibida em tela
+- Definir a condição de vitória da partida
+
+**Conteúdo**
+
+- Uso de clones para criação de múltiplas bolinhas
+- Variável de pontuação para contabilização dos pontos
+- Condição de vitória ao coletar todas as bolinhas do labirinto
+
+---
+
+### Aula 5 — Power Pellets e refinamentos finais
+
+**Objetivos**
+
+- Criar os Power Pellets, que conferem vantagem temporária ao jogador
+- Alterar o comportamento dos fantasmas durante o efeito do poder
+- Adicionar sons e efeitos visuais à jogabilidade
+- Realizar testes e ajustes finais
+
+**Conteúdo**
+
+- Uso de variáveis para controle de estados temporários (por exemplo, `poder = 1`)
+- Comportamento dos fantasmas em estado vulnerável
+- Inclusão de sons e animações para feedback ao jogador
+- Revisão geral e discussão de possíveis expansões (novos níveis, ajustes de velocidade, personalização de personagens)
+
+---
+
+## Conceitos aplicados
+
+| Área | O que o projeto demonstra |
+|------|---------------------------|
+| **Lógica de programação** | Estruturas condicionais, laços de repetição, variáveis e estados |
+| **Pensamento computacional** | Decomposição de problemas, abstração e reconhecimento de padrões |
+| **Eventos e interação** | Captura de entradas do teclado e resposta a eventos |
+| **Detecção de colisão** | Verificação por contato com sprites e por cor |
+| **Programação orientada a sprites** | Comunicação entre sprites, uso de clones e mensagens |
+
+---
+
+## Como acessar o projeto
+
+O projeto pode ser executado diretamente no editor online do Scratch, sem necessidade de instalação:
+
+1. Acesse [https://scratch.mit.edu](https://scratch.mit.edu)
+2. Faça o upload do arquivo `.sb3` disponibilizado no repositório
+3. Clique na bandeira verde para iniciar o jogo
+
+---
+
+## Observação para educadores
+
+Este plano de aula foi elaborado com o objetivo de introduzir lógica de programação, pensamento computacional e criatividade por meio do desenvolvimento de um projeto completo e familiar às crianças. A estrutura é flexível e pode ser adaptada conforme a faixa etária e o nível da turma, com inclusão ou supressão de mecânicas e ajustes na complexidade das atividades propostas.
+
+---
+
+## Sobre o material
+
+Todo o conteúdo deste repositório é de autoria própria, desenvolvido para fins didáticos com o objetivo de apoiar o ensino de lógica de programação para crianças. O material pode ser utilizado, adaptado e compartilhado, desde que mantidos os devidos créditos.
+
+---
+
+## Autora
+
+**Marianna Rossi**
+
+[GitHub](https://github.com/mariannarossim)
+
+---
+
+## Licença
+
+Este material está licenciado sob a [MIT License](https://opensource.org/licenses/MIT) e pode ser utilizado para fins de estudo e ensino, mantendo os créditos da autora.
